@@ -5,3 +5,4 @@ The purpose of the various files and programs in this github are as follows:
 "features_SrCs_mol.txt" and "targets_SrCs_mol.txt" are the files containing the training data for NN-mol. 
 "features_upto10K_SrCs.txt" and "targets_upto10K_SrCs.txt" are the files containing the training data for NN-ion. 
 All files starting with "model" contain the model parameters, with names containing "mol" corresponding to NN-mol and those containing "upto10K" corresponding to NN-ion.
+In the features files, the first column contains impact parameters (in units of bohr) and the second column contains the (natural log of) the collision energies, originally given in Kelvin.
